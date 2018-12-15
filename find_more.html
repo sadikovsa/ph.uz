@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Person Hunter</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header-block">
+				<div class="logo">
+					<a href="/" class="main-logo"><img src="img/logo.png" alt="" class="main-logo-img"></a>
+				</div>
+				<nav class="header-menu">
+					<div class="burger d-lg-none" id="burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<ul class="main-menu">
+						<li class="main-menu-item"><a href="#" class="main-menu-link">О компании</a></li>
+						<li class="main-menu-item"><a href="#" class="main-menu-link">Услуги</a></li>
+						<li class="main-menu-item"><a href="#" class="main-menu-link">Проекты</a></li>
+						<li class="main-menu-item"><a href="#" class="main-menu-link">Пресса</a></li>
+						<li class="main-menu-item"><a href="#" class="main-menu-link">Контакты</a></li>
+						<li class="main-menu-item"><a href="#" class="brochure-btn">Скачать брошюру</a></li>
+					</ul>
+				</nav>
+				<div class="header-right">
+
+					<nav class="lang">
+						<a href="#" class="active-lang d-md-none">РУ</a>
+						<ul class="lang-menu">
+							<li class="lang-menu-item"><a href="#" class="lang-menu-link active">РУ</a></li>
+							<li class="lang-menu-item"><a href="#" class="lang-menu-link">ENG</a></li>
+							<li class="lang-menu-item"><a href="#" class="lang-menu-link">UZ</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="find_more">
+			<div class="container">
+				<h2 class="find-more-title">Расширенный поиск вакансий</h2>
+				<form action="#" class="find-more-container">
+					<div class="find-more-block with-list">
+						<div class="find-more-block-left">
+							<p class="find-more-block-title">по ключевым словам</p>
+						</div>
+						<div class="find-more-block-right">
+							<div class="find-more-input-wrap">
+								<input type="text" class="find-more-input">
+								<input type="submit" value="Найти" class="red-button">
+							</div>
+							<p class="find-more-example-text">например, бухгалтер</p>
+							<p class="find-only-text">Искать только</p>
+							<ul class="find-more-filter-list">
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-1" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-1">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-1" class="find-more-checkbox-label">в названии вакансии </label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-2" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-2">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-2" class="find-more-checkbox-label">в названии компании</label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-3" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-3">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-3" class="find-more-checkbox-label">в описании вакансии</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="find-more-block">
+						<div class="find-more-block-left">
+							<p class="find-more-block-title">Профессия</p>
+						</div>
+						<div class="find-more-block-right">
+							<div class="find-more-input-wrap">
+								<select name="profesion" id="" class="find-more-select">
+									<option value="0">Выбрать</option>
+
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="find-more-block">
+						<div class="find-more-block-left">
+							<p class="find-more-block-title">Отрасль компании</p>
+						</div>
+						<div class="find-more-block-right">
+							<div class="find-more-input-wrap">
+								<select name="profesion" id="" class="find-more-select">
+									<option value="0">Выбрать</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="find-more-block">
+						<div class="find-more-block-left">
+							<p class="find-more-block-title">Регион</p>
+						</div>
+						<div class="find-more-block-right">
+							<div class="find-more-input-wrap">
+								<input type="text" class="find-more-input">
+							</div>
+						</div>
+					</div>
+					<div class="find-more-block">
+						<div class="find-more-block-left">
+							<p class="find-more-block-title">Метро</p>
+						</div>
+						<div class="find-more-block-right">
+							<div class="find-more-input-wrap">
+								<input type="text" class="find-more-input">
+							</div>
+						</div>
+					</div>
+					<div class="find-more-block">
+						<div class="find-more-block-left">
+							<p class="find-more-block-title">Уровень заработной платы</p>
+						</div>
+						<div class="find-more-block-right">
+							<div class="find-more-input-wrap short">
+								<input type="text" class="find-more-input">
+								<select name="profesion" id="" class="find-more-select">
+									<option value="0">Сум</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="find-more-block with-list">
+						<div class="find-more-block-left">
+							<p class="find-more-block-title">Требуемый опыт работы</p>
+						</div>
+						<div class="find-more-block-right">
+							<ul class="find-more-filter-list">
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-4" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-4">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-4" class="find-more-checkbox-label">Не имеет значения</label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-5" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-5">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-5" class="find-more-checkbox-label">Нет опыта </label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-6" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-6">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-6" class="find-more-checkbox-label">От 1 года до 3 лет </label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-7" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-7">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-7" class="find-more-checkbox-label">От 3 до 6 лет </label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-8" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-8">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-8" class="find-more-checkbox-label">Более 6 лет</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="find-more-block with-list">
+						<div class="find-more-block-left">
+							<p class="find-more-block-title">Тип занятости</p>
+						</div>
+						<div class="find-more-block-right">
+							<ul class="find-more-filter-list">
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-9" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-9">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-9" class="find-more-checkbox-label">Полная занятость </label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-10" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-10">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-10" class="find-more-checkbox-label">Частичная занятость </label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-11" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-11">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-11" class="find-more-checkbox-label">Проектная/Временная работа</label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-12" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-12">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-12" class="find-more-checkbox-label">Волонтерство</label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-13" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-13">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-13" class="find-more-checkbox-label">Стажировка</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="find-more-block with-list">
+						<div class="find-more-block-left">
+							<p class="find-more-block-title">График работы</p>
+						</div>
+						<div class="find-more-block-right">
+							<ul class="find-more-filter-list">
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-14" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-14">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-14" class="find-more-checkbox-label">Полный день </label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-15" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-15">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-15" class="find-more-checkbox-label">Сменный график</label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-16" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-16">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-16" class="find-more-checkbox-label">Гибкий график</label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-17" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-17">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-17" class="find-more-checkbox-label">Удаленная работа</label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-18" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-18">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-18" class="find-more-checkbox-label">Вахтовый метод</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="find-more-block with-list">
+						<div class="find-more-block-left">
+							<p class="find-more-block-title">Сортировать</p>
+						</div>
+						<div class="find-more-block-right">
+							<ul class="find-more-filter-list">
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-19" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-19">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-19" class="find-more-checkbox-label">По дате изменения </label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-20" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-20">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-20" class="find-more-checkbox-label">По убыванию зарплат </label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-21" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-21">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-21" class="find-more-checkbox-label">По возрастанию зарплаты</label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-22" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-22">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-22" class="find-more-checkbox-label">По соответствию</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="find-more-block with-list">
+						<div class="find-more-block-left">
+							<p class="find-more-block-title">Выводить</p>
+						</div>
+						<div class="find-more-block-right">
+							<ul class="find-more-filter-list">
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-23" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-23">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-23" class="find-more-checkbox-label">За месяц</label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-24" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-24">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-24" class="find-more-checkbox-label">За неделю</label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-25" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-25">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-25" class="find-more-checkbox-label">За последние три дня </label>
+								</li>
+								<li class="find-more-filter-item">
+									<label for="find-more-checkbox-26" class="find-more-checkbox-wrap">
+										<input type="checkbox" class="find-more-checkbox" id="find-more-checkbox-26">
+										<span></span>
+									</label>
+									<label for="find-more-checkbox-26" class="find-more-checkbox-label">За сутки</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="find-more-block">
+						<div class="find-more-block-left">
+							
+						</div>
+						<div class="find-more-block-right">
+							<input type="submit" value="Найти" class="red-button">
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+		<section class="section-footer">
+			<div class="container">
+				<div class="section-footer-text">
+					<p>Пусть работодатели найдут вас </p>
+					<p>
+						<a href="#" class="section-footer-text-link create">Создать</a>
+						<a href="#" class="section-footer-text-link upload">Загрузить</a>
+					</p>
+					<p>резюме</p>
+				</div>
+				<p class="section-footer-copy">&copy; 2018 PH- Cookies, Privacy and Terms</p>
+			</div>
+		</section>
+	</main>
+	<script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
