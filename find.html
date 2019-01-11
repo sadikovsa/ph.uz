@@ -82,7 +82,7 @@
 							<input type="submit" value="Найти" class="red-button">
 						</form>
 						<a href="#" class="find-search-more">Расширенный поиск</a>
-						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -102,45 +102,23 @@
 								</div>
 								<div class="find-filters-block">
 									<div class="find-filters-block-wrap">
-										<select name="" id="" class="find-filters-select">
+										<select name="" id="" class="find-filters-select" dir="rtl">
 											<option value="">Профессия</option>
+											<option value="">IT</option>
 										</select>
 									</div>
 								</div>
 								<div class="find-filters-block">
-									<div class="find-filters-block-wrap">
+									<div class="find-filters-block-wrap salary">
 										<p class="find-filters-title">Заработная плата</p>
 									</div>
-									<ul class="find-filters-list">
-										<li class="find-filters-item">
-											<input type="checkbox" class="find-filters-checkbox" id="find-filters-checkbox-1">
-											<label for="find-filters-checkbox-1" class="find-filters-checkbox-label">
-												300$
-											</label>
-											<span class="find-filters-counts">(293)</span>
-										</li>
-										<li class="find-filters-item">
-											<input type="checkbox" class="find-filters-checkbox" id="find-filters-checkbox-2">
-											<label for="find-filters-checkbox-2" class="find-filters-checkbox-label">
-												400$
-											</label>
-											<span class="find-filters-counts">(123)</span>
-										</li>
-										<li class="find-filters-item">
-											<input type="checkbox" class="find-filters-checkbox" id="find-filters-checkbox-3">
-											<label for="find-filters-checkbox-3" class="find-filters-checkbox-label">
-												500$
-											</label>
-											<span class="find-filters-counts">(15)</span>
-										</li>
-										<li class="find-filters-item">
-											<input type="checkbox" class="find-filters-checkbox" id="find-filters-checkbox-4">
-											<label for="find-filters-checkbox-4" class="find-filters-checkbox-label">
-												600$
-											</label>
-											<span class="find-filters-counts">(9)</span>
-										</li>
-									</ul>
+									<div id="slider-range" class="salary-filter-range" name="rangeInput">
+										<div class="salary-filter-wrap">
+											от <input type="number" min="0" max="9900000" step="500000" id="min_price" class="salary-range-field" value="3000000"/>
+											до <input type="number" min="0"  max="10000000" step="500000" id="max_price" class="salary-range-field" value="5000000"/>
+										</div>
+									</div>
+
 								</div>
 								<div class="find-filters-block">
 									<div class="find-filters-block-wrap">
@@ -288,8 +266,12 @@
 										<p class="find-filters-title">Опыт работы</p>
 									</div>
 									<div class="find-filters-range-wrap">
-										<input type="range" min="0" max="15" step="1" value="4" class="find-filters-range">
-										<span class="find-filters-range-text">4</span>
+										<input type="range" min="0" max="15" step="1" value="6" class="find-filters-range">
+										<span class="find-filters-range-text">6</span>
+									</div>
+									<div class="find-filters-range-wrap">
+										<input type="range" min="0" max="15" step="1" value="2" class="find-filters-range">
+										<span class="find-filters-range-text">2</span>
 									</div>
 								</div>
 							</form>
